@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <select id="formSelector">
+        <option value="0">select form type</option>
+        <option value="humanForm">human</option>
+        <option value="animalForm">animal</option>
+    </select>
+    <div id="humanForm" style="display:none;">
+        <input type="radio" name="humanSelector" />Man
+        <input type="radio" name="humanSelector" />Woman
+    </div>
+    <div id="animalForm" style="display:none;">
+
+        <input type="radio" name="animalSelector" />cat
+        <input type="radio" name="animalSelector" />dog
+        <input type="radio" name="animalSelector" />lion
+    </div>
+    <script>
+        var formSelector = document.getElementById("formSelector");
+        var humanForm = document.getElementById("humanForm");
+        var animalForm = document.getElementById("animalForm");
+
+        formSelector.addEventListener("change", function (event) {
+            humanForm.style.display = "none";
+            animalForm.style.display = "none";
+
+            switch (formSelector.value) {
+                case "humanForm":
+                    humanForm.style.display = "block";
+
+                    break;
+                case "animalForm":
+                    animalForm.style.display = "block";
+                    break;
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+.topnav {
+    background-color: rgb(137, 117, 224);
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav h1 {
+    float: middle;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+  }
+  * {box-sizing: border-box}
+
+  /* Add padding to containers */
+  .container {
+    
+    padding: 16px 800px;
+  }
+
+
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password],input[type=number], select[class=sel1], input[type=date] {
+    width: 150%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inherit;
+    border: none;
+    background: #f1f1f1;
+
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit/register button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 75%;
+    opacity: 0.9;
+  }
+
+  .opbtn {background-color: #5f66a0;
+  color: white;
+  width: 200%;
+  text-align: center;
+  padding: 20px 20px;
+  margin: 15px 0;
+  border: none;
+  cursor: pointer;
+
+  }
