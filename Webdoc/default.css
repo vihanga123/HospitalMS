@@ -45,10 +45,10 @@
   
   /* Full-width input fields */
   input[type=text], input[type=password],input[type=number], select[class=sel1], input[type=date] {
-    width: 150%;
+    width: 100%;
     padding: 15px;
     margin: 5px 0 22px 0;
-    display: inherit;
+    display: flex;
     border: none;
     background: #f1f1f1;
 
